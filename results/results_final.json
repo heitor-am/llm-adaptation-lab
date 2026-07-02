@@ -1,0 +1,229 @@
+{
+  "mcq_por_modelo": {
+    "0.6B base": {
+      "dompi_local": 0.2,
+      "conceitual": 0.659,
+      "factual": 0.2,
+      "ic_conceitual": [
+        0.505,
+        0.784
+      ],
+      "ic_dompi": [
+        0.081,
+        0.416
+      ]
+    },
+    "0.6B + destilação": {
+      "dompi_local": 0.3,
+      "conceitual": 0.683,
+      "factual": 0.3,
+      "ic_conceitual": [
+        0.53,
+        0.804
+      ],
+      "ic_dompi": [
+        0.145,
+        0.519
+      ]
+    },
+    "1.7B base": {
+      "dompi_local": 0.3,
+      "conceitual": 0.683,
+      "factual": 0.3,
+      "ic_conceitual": [
+        0.53,
+        0.804
+      ],
+      "ic_dompi": [
+        0.145,
+        0.519
+      ]
+    },
+    "1.7B + pré-treino": {
+      "dompi_local": 0.45,
+      "conceitual": 0.732,
+      "factual": 0.45,
+      "ic_conceitual": [
+        0.581,
+        0.843
+      ],
+      "ic_dompi": [
+        0.258,
+        0.658
+      ]
+    },
+    "4B base": {
+      "dompi_local": 0.25,
+      "conceitual": 0.732,
+      "factual": 0.25,
+      "ic_conceitual": [
+        0.581,
+        0.843
+      ],
+      "ic_dompi": [
+        0.112,
+        0.469
+      ]
+    },
+    "4B + SFT": {
+      "dompi_local": 0.2,
+      "conceitual": 0.61,
+      "factual": 0.2,
+      "ic_conceitual": [
+        0.457,
+        0.743
+      ],
+      "ic_dompi": [
+        0.081,
+        0.416
+      ]
+    }
+  },
+  "lm_pretrain": {
+    "1.7B base": {
+      "dominio": {
+        "entropia_cruzada": 2.3471,
+        "perplexidade": 10.46,
+        "acc_token": 0.5546
+      },
+      "fora_dominio": {
+        "entropia_cruzada": 2.0713,
+        "perplexidade": 7.94,
+        "acc_token": 0.6024
+      }
+    },
+    "1.7B + pré-treino": {
+      "dominio": {
+        "entropia_cruzada": 2.156,
+        "perplexidade": 8.64,
+        "acc_token": 0.5691
+      },
+      "fora_dominio": {
+        "entropia_cruzada": 1.8927,
+        "perplexidade": 6.64,
+        "acc_token": 0.608
+      }
+    }
+  },
+  "rag": {
+    "mcq_sem": 0.25,
+    "mcq_com": 0.5,
+    "ic_mcq_sem": [
+      0.112,
+      0.469
+    ],
+    "ic_mcq_com": [
+      0.299,
+      0.701
+    ],
+    "factual_sem": 0.0,
+    "factual_com": 0.467,
+    "ic_factual_sem": [
+      0,
+      0.114
+    ],
+    "ic_factual_com": [
+      0.302,
+      0.639
+    ],
+    "sim_sem": 0.831,
+    "sim_com": 0.86
+  },
+  "juiz_rag": {
+    "nota_sem": 1.833,
+    "nota_com": 3.3,
+    "ic_sem": [
+      1.278,
+      2.388
+    ],
+    "ic_com": [
+      2.583,
+      4.017
+    ],
+    "notas_sem": [
+      3,
+      2,
+      5,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      3,
+      0,
+      0,
+      3,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      0
+    ],
+    "notas_com": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      0,
+      3,
+      3,
+      3,
+      3,
+      5,
+      5,
+      3,
+      5,
+      5,
+      3,
+      0,
+      0,
+      5,
+      5,
+      5,
+      0,
+      0,
+      3,
+      5,
+      5,
+      5,
+      0,
+      3,
+      0
+    ],
+    "escala": "0-5",
+    "juiz": "Qwen3-4B"
+  },
+  "atribuicao": {
+    "4B base": {
+      "atribuicao": 0.0,
+      "ic": [
+        0,
+        0.133
+      ],
+      "ppl_resposta": 2796.18
+    },
+    "4B + SFT": {
+      "atribuicao": 0.24,
+      "ic": [
+        0.115,
+        0.434
+      ],
+      "ppl_resposta": 7.05
+    }
+  },
+  "atribuicao_acaso": 0.077
+}

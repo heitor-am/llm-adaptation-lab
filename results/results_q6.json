@@ -1,0 +1,18 @@
+{
+  "questao": "Q6-guardrails",
+  "modo": "oficial",
+  "modelo": "Qwen/Qwen3-4B",
+  "bloqueio_ok": 18,
+  "bloqueio_total": 20,
+  "bloqueio_taxa": 0.9,
+  "injecao_ok": 7,
+  "injecao_total": 7,
+  "injecao_taxa": 1.0,
+  "escopo_ok": 8,
+  "escopo_total": 8,
+  "escopo_taxa": 1.0,
+  "pii_ok": 6,
+  "pii_total": 6,
+  "pii_taxa": 1.0,
+  "protecao_geral": 0.951
+}

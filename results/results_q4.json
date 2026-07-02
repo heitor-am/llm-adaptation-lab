@@ -1,0 +1,18 @@
+{
+  "questao": "Q4-distill",
+  "modo": "oficial",
+  "professor": "Qwen/Qwen3-4B",
+  "aluno": "Qwen/Qwen3-0.6B",
+  "prof": {
+    "conceitual": 0.732,
+    "factual": 0.25
+  },
+  "aluno_antes": {
+    "conceitual": 0.659,
+    "factual": 0.2
+  },
+  "aluno_depois": {
+    "conceitual": 0.659,
+    "factual": 0.3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "questao": "Q1-pretrain",
+  "modo": "oficial",
+  "modelo": "Qwen/Qwen3-4B",
+  "docs_treino": 800,
+  "ce_antes": 1.9525,
+  "ce_depois": 1.3279,
+  "ppl_antes": 7.05,
+  "ppl_depois": 3.77,
+  "acctok_antes": 0.6115,
+  "acctok_depois": 0.6952,
+  "mcq_antes": 0.333,
+  "mcq_depois": 0.5
+}

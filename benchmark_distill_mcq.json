@@ -1,0 +1,1032 @@
+{
+  "meta": {
+    "nome": "Benchmark Q4 — Destilação (100 perguntas)",
+    "formato": "MCQ 4 alternativas; métrica = Acurácia (acaso = 25%); scoring log-prob/cloze",
+    "composicao": "80 conceituais (conhecimento geral de administração pública — o que a destilação transfere) + 20 factuais (fatos locais do DOM-PI — controle, tende ao acaso)",
+    "answer": "índice (0-based) da alternativa correta"
+  },
+  "conceitual": [
+    {
+      "q": "Para que serve a Lei nº 4.320/1964?",
+      "options": [
+        "Institui normas gerais de direito financeiro e orçamentário",
+        "Define o regime jurídico dos servidores",
+        "Cria o Diário Oficial dos Municípios",
+        "Regula licitações e contratos"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que é um crédito suplementar no orçamento municipal?",
+      "options": [
+        "Cancelamento total do orçamento",
+        "Empréstimo tomado de outro município",
+        "Criação de um novo tributo",
+        "Reforço de uma dotação orçamentária já existente"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é um crédito especial?",
+      "options": [
+        "Reforço de dotação já existente",
+        "Antecipação de receita",
+        "Crédito para calamidade pública",
+        "Despesa para a qual não há dotação orçamentária específica"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Quando se usa um crédito extraordinário?",
+      "options": [
+        "Para despesas urgentes e imprevisíveis, como calamidade ou guerra",
+        "Para criar novos cargos",
+        "Para qualquer reforço de dotação",
+        "Para pagar restos a pagar"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que é o orçamento-programa de um município?",
+      "options": [
+        "Instrumento que vincula despesas a programas e objetivos",
+        "Registro de bens patrimoniais",
+        "Plano de cargos e salários",
+        "Lista de servidores efetivos"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que é uma nota de empenho?",
+      "options": [
+        "Recibo de pagamento ao fornecedor",
+        "Convênio com o estado",
+        "Multa aplicada a servidor",
+        "Ato que reserva dotação para uma despesa"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é a Lei Orçamentária Anual (LOA)?",
+      "options": [
+        "Lei que cria cargos",
+        "O orçamento de um único exercício financeiro",
+        "Planejamento de quatro anos",
+        "Balanço do exercício anterior"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que é o Plano Plurianual (PPA)?",
+      "options": [
+        "Orçamento de um único exercício",
+        "Lista de licitações do ano",
+        "Planejamento de médio prazo com diretrizes e metas (4 anos)",
+        "Balanço anual de despesas"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Para que serve a Lei de Diretrizes Orçamentárias (LDO)?",
+      "options": [
+        "Aprovar as contas do prefeito",
+        "Regular o pregão eletrônico",
+        "Criar cargos públicos",
+        "Orientar a elaboração da lei orçamentária anual"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Quais são os estágios da despesa pública?",
+      "options": [
+        "Planejamento, execução e controle",
+        "Licitação, contrato e aditivo",
+        "Empenho, liquidação e pagamento",
+        "Receita, despesa e superávit"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O que é a liquidação da despesa?",
+      "options": [
+        "O pagamento ao fornecedor",
+        "A verificação do direito adquirido pelo credor",
+        "O cancelamento da despesa",
+        "A reserva da dotação"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que são restos a pagar?",
+      "options": [
+        "Dívidas de outros municípios",
+        "Multas pendentes",
+        "Receitas não arrecadadas",
+        "Despesas empenhadas mas não pagas no exercício"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é a dívida ativa de um município?",
+      "options": [
+        "As despesas com pessoal",
+        "Créditos da Fazenda não pagos e inscritos para cobrança",
+        "O total de empenhos do ano",
+        "O saldo em caixa"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que é uma dotação orçamentária?",
+      "options": [
+        "Um cargo comissionado",
+        "Uma modalidade de licitação",
+        "Um tipo de tributo",
+        "O valor autorizado no orçamento para uma despesa"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O exercício financeiro no Brasil coincide com:",
+      "options": [
+        "O ano letivo",
+        "O ano civil",
+        "O período da LDO",
+        "O mandato do prefeito"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que é o contingenciamento de despesas?",
+      "options": [
+        "O aumento de salários",
+        "A limitação de empenho para ajustar despesas às receitas",
+        "A criação de créditos especiais",
+        "O cancelamento de tributos"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que caracteriza uma emenda parlamentar ao orçamento?",
+      "options": [
+        "Um decreto do prefeito",
+        "Um contrato administrativo",
+        "Uma portaria do secretário",
+        "Alteração da proposta orçamentária pelo Poder Legislativo"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é o duodécimo repassado ao Poder Legislativo?",
+      "options": [
+        "O repasse mensal de recursos orçamentários",
+        "Um tipo de licitação",
+        "Um imposto municipal",
+        "Uma multa contratual"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que significa vinculação de receita?",
+      "options": [
+        "Receita extraordinária",
+        "Receita de outro município",
+        "Receita de livre aplicação",
+        "Receita destinada por lei a uma finalidade específica"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Receitas de capital incluem tipicamente:",
+      "options": [
+        "Impostos e taxas",
+        "Operações de crédito e alienação de bens",
+        "Salários",
+        "Multas de trânsito"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O superávit primário corresponde a:",
+      "options": [
+        "Receitas menos despesas, exceto os juros da dívida",
+        "A diferença entre PPA e LOA",
+        "O saldo de restos a pagar",
+        "O total de tributos arrecadados"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O princípio orçamentário da anualidade significa que:",
+      "options": [
+        "O orçamento é elaborado para um exercício financeiro",
+        "O orçamento não tem prazo",
+        "O orçamento é mensal",
+        "O orçamento dura quatro anos"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que é o remanejamento/transposição de recursos?",
+      "options": [
+        "A criação de um novo imposto",
+        "A nomeação de servidores",
+        "O pagamento de restos a pagar",
+        "A realocação de dotações entre categorias de programação"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que indica a 'fonte de recursos' em uma despesa?",
+      "options": [
+        "O órgão fiscalizador",
+        "O tipo de ato administrativo",
+        "A origem do dinheiro que custeia a despesa",
+        "O fornecedor contratado"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual lei federal disciplina licitações e contratos administrativos atualmente?",
+      "options": [
+        "Lei nº 4.320/1964",
+        "Lei nº 8.666/1993",
+        "Lei nº 14.133/2021",
+        "Lei Complementar nº 101/2000"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual destas é uma modalidade de licitação da Lei nº 14.133/2021?",
+      "options": [
+        "Convite",
+        "Carta-convite",
+        "Tomada de preços",
+        "Diálogo competitivo"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O pregão é a modalidade indicada para:",
+      "options": [
+        "Concessão de serviço público",
+        "Contratação de artistas",
+        "Aquisição de bens e serviços comuns",
+        "Obras de grande vulto"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O diálogo competitivo é usado para:",
+      "options": [
+        "Contratações que exigem soluções inovadoras",
+        "Nomeação de servidores",
+        "Compras de baixo valor",
+        "Locação de imóveis"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que caracteriza a dispensa de licitação?",
+      "options": [
+        "Exige sempre pregão",
+        "A competição é possível, mas a lei autoriza não licitar",
+        "A competição é inviável",
+        "É sempre proibida"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que caracteriza a inexigibilidade de licitação?",
+      "options": [
+        "Valor abaixo do limite legal",
+        "Urgência por calamidade",
+        "Sorteio entre concorrentes",
+        "Inviabilidade de competição"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual situação típica enseja inexigibilidade de licitação?",
+      "options": [
+        "Obra de pavimentação",
+        "Compra de material de escritório",
+        "Locação de veículos",
+        "Fornecedor exclusivo, sem concorrência viável"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A Ata de Registro de Preços resulta tipicamente de qual modalidade?",
+      "options": [
+        "Pregão ou concorrência",
+        "Convite",
+        "Leilão",
+        "Inexigibilidade"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Para que serve o Sistema de Registro de Preços?",
+      "options": [
+        "Compras eventuais e futuras sem licitar a cada vez",
+        "Pagar servidores",
+        "Registrar bens patrimoniais",
+        "Controlar a frequência de servidores"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que é o termo de referência em uma contratação pública?",
+      "options": [
+        "Edital de concurso público",
+        "Nota fiscal do fornecedor",
+        "Recibo de entrega do bem",
+        "Documento que define objeto, requisitos e condições da contratação"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O edital de licitação é:",
+      "options": [
+        "O contrato assinado",
+        "A nota de empenho",
+        "O instrumento convocatório que rege o certame",
+        "O parecer jurídico"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O que ocorre na fase de habilitação da licitação?",
+      "options": [
+        "Assinatura do contrato",
+        "Pagamento ao vencedor",
+        "Publicação do edital",
+        "Verificação dos requisitos (jurídicos, técnicos, fiscais) dos licitantes"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual destes é um critério de julgamento de licitação?",
+      "options": [
+        "Menor preço",
+        "Maior idade",
+        "Ordem de chegada",
+        "Sorteio simples"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que significa homologar o resultado de uma licitação?",
+      "options": [
+        "Anular o processo",
+        "Suspender o contrato",
+        "Confirmar oficialmente a validade do certame e seu vencedor",
+        "Abrir prazo de recurso"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O que é a adjudicação em uma licitação?",
+      "options": [
+        "A anulação do certame",
+        "A atribuição do objeto ao licitante vencedor",
+        "A publicação do edital",
+        "A cobrança de multa"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que são cláusulas exorbitantes do contrato administrativo?",
+      "options": [
+        "Cláusulas de reajuste",
+        "Cláusulas ilegais",
+        "Cláusulas opcionais",
+        "Cláusulas que conferem prerrogativas à Administração"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Um exemplo de cláusula exorbitante é:",
+      "options": [
+        "A garantia do produto",
+        "O pagamento à vista",
+        "A rescisão unilateral pela Administração",
+        "O prazo de entrega"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O que é um termo aditivo a um contrato?",
+      "options": [
+        "O edital de licitação",
+        "A multa por atraso",
+        "Instrumento que altera o contrato (valor, prazo ou objeto)",
+        "A nota de empenho"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O reequilíbrio econômico-financeiro do contrato serve para:",
+      "options": [
+        "Trocar o objeto",
+        "Cancelar o contrato",
+        "Aumentar o lucro do fornecedor sem justificativa",
+        "Restabelecer a relação inicial entre encargos e remuneração"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual destas é uma sanção administrativa por descumprimento de contrato?",
+      "options": [
+        "Apreensão de bens pessoais",
+        "Prisão do sócio",
+        "Cassação de mandato",
+        "Declaração de inidoneidade para licitar"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual é a função do fiscal de contrato?",
+      "options": [
+        "Julgar a licitação",
+        "Acompanhar e fiscalizar a execução do contrato",
+        "Nomear servidores",
+        "Elaborar o orçamento"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O credenciamento é a contratação:",
+      "options": [
+        "Sem qualquer requisito",
+        "De todos os interessados que atendam aos requisitos",
+        "Exclusiva por pregão",
+        "Por sorteio"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Qual destes é um princípio da licitação?",
+      "options": [
+        "Livre escolha do gestor",
+        "Isonomia entre os licitantes",
+        "Pessoalidade",
+        "Sigilo das propostas após a abertura"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A garantia contratual pode ser prestada por:",
+      "options": [
+        "Apenas dinheiro em espécie",
+        "Nota promissória pessoal",
+        "Caução, seguro-garantia ou fiança bancária",
+        "Cheque pré-datado"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O que é o cargo efetivo?",
+      "options": [
+        "Cargo temporário",
+        "Cargo de livre nomeação",
+        "Cargo cujo ingresso se dá por concurso público",
+        "Cargo eletivo"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O cargo em comissão caracteriza-se por:",
+      "options": [
+        "Livre nomeação e exoneração",
+        "Ingresso exclusivamente por concurso",
+        "Mandato eletivo",
+        "Estabilidade após três anos"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A função de confiança deve ser exercida por:",
+      "options": [
+        "Estagiários",
+        "Servidores ocupantes de cargo efetivo",
+        "Apenas comissionados externos",
+        "Qualquer pessoa indicada"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que é a nomeação de um servidor?",
+      "options": [
+        "O desligamento do servidor",
+        "A remoção",
+        "A aposentadoria",
+        "O ato de provimento do cargo público"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é a posse no serviço público?",
+      "options": [
+        "A aceitação formal do cargo e suas atribuições",
+        "A aposentadoria",
+        "A aprovação no concurso",
+        "O início efetivo das funções"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O estágio probatório tem duração de:",
+      "options": [
+        "1 ano",
+        "3 anos",
+        "5 anos",
+        "2 anos"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A estabilidade do servidor é adquirida:",
+      "options": [
+        "Na aposentadoria",
+        "Na posse",
+        "Na nomeação",
+        "Após aprovação no estágio probatório"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que significa exonerar um servidor?",
+      "options": [
+        "Desligá-lo sem caráter punitivo",
+        "Promovê-lo",
+        "Aplicar-lhe multa",
+        "Puni-lo por infração grave"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A demissão de um servidor é:",
+      "options": [
+        "Um desligamento de caráter punitivo",
+        "Uma forma de promoção",
+        "A aposentadoria compulsória",
+        "A remoção para outro setor"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que é a vacância de um cargo público?",
+      "options": [
+        "A ocupação do cargo",
+        "A criação do cargo",
+        "A extinção do órgão",
+        "A situação em que o cargo fica vago"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A exigência de concurso público para cargo efetivo está prevista:",
+      "options": [
+        "No Código Civil",
+        "Na LDO",
+        "No art. 37 da Constituição Federal",
+        "Na Lei de Licitações"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A acumulação remunerada de cargos públicos é:",
+      "options": [
+        "Decidida pelo prefeito",
+        "Livremente permitida",
+        "Permitida só para comissionados",
+        "Vedada, salvo exceções previstas na Constituição"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual a diferença entre vencimento e remuneração?",
+      "options": [
+        "Vencimento é o básico; remuneração é o vencimento mais vantagens",
+        "Remuneração é só para comissionados",
+        "Vencimento inclui as gratificações",
+        "São sinônimos"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A remoção de um servidor é:",
+      "options": [
+        "A aposentadoria",
+        "A perda do cargo",
+        "O deslocamento dentro do mesmo quadro",
+        "O desligamento do serviço"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Uma portaria de concessão de diárias serve para:",
+      "options": [
+        "Pagar o salário mensal",
+        "Nomear servidor",
+        "Custear deslocamentos a serviço do servidor",
+        "Aplicar multa"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual destes é um modo de provimento de cargo público?",
+      "options": [
+        "Nomeação",
+        "Exoneração",
+        "Vacância",
+        "Demissão"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual a diferença entre decreto e portaria no âmbito municipal?",
+      "options": [
+        "Decreto só trata de pessoal",
+        "Decreto é ato do Chefe do Executivo; portaria, de autoridade administrativa subordinada",
+        "São o mesmo ato com nomes diferentes",
+        "Portaria é do prefeito; decreto, do secretário"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Uma resolução costuma ser um ato de:",
+      "options": [
+        "Apenas do Judiciário",
+        "Apenas do prefeito",
+        "Órgão colegiado ou conselho",
+        "Um fornecedor"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual destes é um atributo do ato administrativo?",
+      "options": [
+        "Onerosidade",
+        "Bilateralidade",
+        "Presunção de legitimidade",
+        "Pessoalidade"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual destes é um requisito de validade do ato administrativo?",
+      "options": [
+        "Anuência do fornecedor",
+        "Lucratividade",
+        "Publicidade na imprensa privada",
+        "Competência"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A revogação de um ato administrativo ocorre por:",
+      "options": [
+        "Ilegalidade",
+        "Decisão judicial apenas",
+        "Conveniência e oportunidade",
+        "Erro material"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A anulação de um ato administrativo ocorre por:",
+      "options": [
+        "Ilegalidade",
+        "Conveniência",
+        "Mudança de governo",
+        "Pedido do interessado sempre"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O princípio da publicidade exige que:",
+      "options": [
+        "Apenas contratos sejam publicados",
+        "Todos os atos sejam secretos",
+        "A publicação seja facultativa",
+        "Os atos sejam divulgados oficialmente, salvo sigilo legal"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Um ato administrativo vinculado caracteriza-se por:",
+      "options": [
+        "Liberdade total de decisão",
+        "Ser sempre revogável",
+        "Não haver margem de escolha ao administrador",
+        "Depender de licitação"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A discricionariedade administrativa significa:",
+      "options": [
+        "Ausência de lei",
+        "Decisão do Judiciário",
+        "Margem de escolha dentro da lei (conveniência e oportunidade)",
+        "Poder ilimitado"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "O Diário Oficial dos Municípios é:",
+      "options": [
+        "Um sistema de folha de pagamento",
+        "O veículo de publicação oficial dos atos municipais",
+        "Um cadastro de fornecedores",
+        "Um jornal privado"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A Lei Orgânica Municipal funciona como:",
+      "options": [
+        "Um edital de licitação",
+        "A 'constituição' do município",
+        "Um decreto do prefeito",
+        "Uma portaria de pessoal"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O princípio da legalidade na administração pública significa que:",
+      "options": [
+        "A lei é facultativa",
+        "Só o prefeito segue a lei",
+        "O gestor pode tudo que a lei não proíbe",
+        "O gestor só pode fazer o que a lei permite"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O princípio da impessoalidade impõe que a Administração:",
+      "options": [
+        "Beneficie aliados políticos",
+        "Mantenha sigilo dos atos",
+        "Decida por simpatia",
+        "Atue sem favorecer ou prejudicar pessoas determinadas"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é um decreto de calamidade pública municipal?",
+      "options": [
+        "Uma portaria de nomeação",
+        "Um edital de pregão",
+        "Um contrato de locação",
+        "Ato que reconhece situação anormal e excepcional para medidas de emergência"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "O que é um convênio firmado pelo município?",
+      "options": [
+        "Acordo de cooperação para objetivos comuns, sem fins lucrativos",
+        "Uma multa",
+        "Um contrato de compra e venda",
+        "Um cargo comissionado"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A eficácia de um ato administrativo, em regra, depende de:",
+      "options": [
+        "Decisão judicial",
+        "Sua publicação oficial",
+        "Pagamento de taxa",
+        "Aprovação do fornecedor"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Qual órgão tipicamente exerce o controle externo das contas municipais?",
+      "options": [
+        "O cartório",
+        "O Tribunal de Contas",
+        "A Junta Comercial",
+        "A Receita Federal"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A Lei de Responsabilidade Fiscal (LC nº 101/2000) trata principalmente de:",
+      "options": [
+        "Gestão fiscal responsável e limites de gastos",
+        "Licitações",
+        "Regime jurídico dos servidores",
+        "Direito penal"
+      ],
+      "answer": 0
+    }
+  ],
+  "factual": [
+    {
+      "q": "Qual o valor do crédito suplementar aberto pela Portaria nº 790, de 12/12/2025, de Teresina?",
+      "options": [
+        "R$ 1.103.110,00",
+        "R$ 827.500,00",
+        "R$ 300.000,00",
+        "R$ 30.000,00"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual o valor do crédito suplementar da Portaria nº 143, de 19 de maio de 2025 (Teresina)?",
+      "options": [
+        "R$ 1.103.110,00",
+        "R$ 3.617.082,24",
+        "R$ 30.000,00",
+        "R$ 300.000,00"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual o valor do crédito suplementar aberto pela Portaria nº 242, de 03 de julho de 2025 (Teresina)?",
+      "options": [
+        "R$ 1.103.110,00",
+        "R$ 30.000,00",
+        "R$ 300.000,00",
+        "R$ 500,00"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Qual empresa venceu a Concorrência Eletrônica nº 001/2025 do município de Cocal?",
+      "options": [
+        "F Santos Construtora e Serviços LTDA",
+        "Caio Henrique Braga Paes",
+        "Liderança Construtora LTDA",
+        "Souza Edilson Sérvulo de Souza"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual o valor do contrato da Concorrência Eletrônica nº 001/2025 de Cocal (pavimentação)?",
+      "options": [
+        "R$ 1.103.110,00",
+        "R$ 827.500,00",
+        "R$ 3.617.082,24",
+        "R$ 835.335,20"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual o objeto da Concorrência Eletrônica nº 001/2025 do município de Cocal?",
+      "options": [
+        "Pavimentação de vias públicas em paralelepípedo",
+        "Assessoria técnica em saúde",
+        "Locação de imóvel",
+        "Recuperação de estradas vicinais"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual empresa foi adjudicada para a recuperação de estradas vicinais em Barras?",
+      "options": [
+        "Liderança Pavimentação ME",
+        "Famae Peças",
+        "Liderança Construtora LTDA",
+        "F Santos Construtora e Serviços LTDA"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Por qual valor foi adjudicada a recuperação de estradas vicinais em Barras?",
+      "options": [
+        "R$ 3.617.082,24",
+        "R$ 835.335,20",
+        "R$ 500,00",
+        "R$ 827.500,00"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual cargo é objeto de exoneração na Portaria nº 104/2025 de Pajeú do Piauí?",
+      "options": [
+        "Diretor de Departamento de Programas",
+        "Assessor de Gabinete",
+        "Chefe do Setor de Transporte e Máquinas",
+        "Cuidador Escolar"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Para qual cargo foi nomeada Esther de Aguiar Luz pela Portaria nº 142/2025?",
+      "options": [
+        "Chefe do Setor de Transporte",
+        "Pregoeira",
+        "Cuidador Escolar",
+        "Assessor de Gabinete (DAS CC-4)"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Que fundo municipal é criado pela norma do município de Jaicós (art. 16)?",
+      "options": [
+        "Fundo Municipal de Assistência Social",
+        "Fundo Municipal de Direitos do Idoso",
+        "Fundo Municipal de Saúde",
+        "Fundo Municipal de Educação"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O decreto de São Raimundo Nonato (24/10/2025) trata de qual assunto?",
+      "options": [
+        "IPTU Premiado",
+        "Chamada pública de cuidadores",
+        "Locação de imóvel",
+        "Crédito suplementar"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual o cargo da Chamada Pública Simplificada nº 002/2025 de Ribeira do Piauí?",
+      "options": [
+        "Operador de máquinas",
+        "Pregoeiro",
+        "Cuidador Escolar",
+        "Assessor de Gabinete"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Qual a carga horária do cargo da Chamada Pública nº 002/2025 de Ribeira do Piauí?",
+      "options": [
+        "40 horas",
+        "20 horas",
+        "30 horas",
+        "44 horas"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual a modalidade de licitação da Ata de Registro de Preços nº 0021/2025 de Lagoa de São Francisco?",
+      "options": [
+        "Inexigibilidade",
+        "Dispensa",
+        "Concorrência",
+        "Pregão"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual o tipo (critério) da licitação Pregão Eletrônico nº 048/2025 de Redenção do Gurguéia?",
+      "options": [
+        "Menor preço por lote",
+        "Melhor técnica",
+        "Técnica e preço",
+        "Maior lance"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual o objeto da Inexigibilidade de Licitação nº 019/2025 de Parnaguá?",
+      "options": [
+        "Fornecimento de merenda",
+        "Assessoria técnica em saúde (gestão do SUS)",
+        "Pavimentação de vias",
+        "Recuperação de estradas"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Qual o valor mensal do Contrato de Locação nº 004/2025 da Prefeitura de Várzea Branca?",
+      "options": [
+        "R$ 30.000,00",
+        "R$ 5.000,00",
+        "R$ 827.500,00",
+        "R$ 500,00"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Qual a lei federal de licitações e contratos citada como fundamento nos atos do DOM-PI?",
+      "options": [
+        "Lei nº 10.520/2002",
+        "Lei nº 14.133/2021",
+        "Lei nº 8.666/1993",
+        "Lei nº 4.320/1964"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Classifique o tipo de ato: 'Abre Crédito Suplementar no Orçamento-Programa vigente, no valor de R$ 30.000,00'.",
+      "options": [
+        "Portaria",
+        "Decreto",
+        "Contrato",
+        "Edital"
+      ],
+      "answer": 0
+    }
+  ]
+}

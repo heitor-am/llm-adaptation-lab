@@ -1,0 +1,17 @@
+{
+  "questao": "Q2Q3-sft",
+  "metodo": "QLoRA 4-bit",
+  "modelo": "Qwen/Qwen3-4B",
+  "fonte": "docentesDC",
+  "n_pares": 1000,
+  "n_eval": 25,
+  "professores_distintos": 19,
+  "acaso": 0.053,
+  "baseline_majoritaria": 0.24,
+  "metrica_principal": "geracao_livre",
+  "atrib_antes": 0.0,
+  "atrib_depois": 0.56,
+  "cloze_antes": 0.04,
+  "cloze_depois": 0.04,
+  "trainable_pct": 1.4753
+}

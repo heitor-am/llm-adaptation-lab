@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "nome": "DOM-PI seed benchmark (Diário Oficial dos Municípios do Piauí)",
+    "fonte": "gutoportelaa/dom-pi-corpus-2025 (config curated)",
+    "tarefas": "T2 = QA factual (geração curta) | T1 = classificação/roteamento",
+    "n": 30,
+    "obs": "Respostas verificáveis no campo 'texto' do documento citado em 'fonte'. Semente para validar pipeline (Q1/Q5); expandir/curar com o Grupo 03."
+  },
+  "items": [
+    {"q": "Qual o valor do crédito suplementar aberto pela Portaria nº 790, de 12/12/2025, de Teresina?", "ref": "R$ 1.103.110,00 (um milhão, cento e três mil, cento e dez reais)", "tipo": "T2", "fonte": "1f395839"},
+    {"q": "De qual município é a Portaria nº 790/2025 que abre crédito suplementar de R$ 1.103.110,00?", "ref": "Teresina", "tipo": "T1", "fonte": "1f395839"},
+    {"q": "Qual o valor do crédito suplementar da Portaria nº 143, de 19 de maio de 2025 (Teresina)?", "ref": "R$ 300.000,00 (trezentos mil reais)", "tipo": "T2", "fonte": "7262a76a"},
+    {"q": "Qual o valor do crédito suplementar aberto pela Portaria nº 242, de 03 de julho de 2025?", "ref": "R$ 30.000,00 (trinta mil reais)", "tipo": "T2", "fonte": "9d0162c9"},
+    {"q": "Qual autoridade assina as portarias de crédito suplementar do Município de Teresina?", "ref": "O Secretário Municipal de Planejamento e Coordenação", "tipo": "T2", "fonte": "1f395839"},
+    {"q": "Qual o valor mensal do Contrato de Locação nº 004/2025 da Prefeitura de Várzea Branca?", "ref": "R$ 500,00 (quinhentos reais) por mês", "tipo": "T2", "fonte": "084f5473"},
+    {"q": "Qual a vigência do Contrato de Locação nº 004/2025 de Várzea Branca?", "ref": "12 (doze) meses, podendo ser prorrogado", "tipo": "T2", "fonte": "084f5473"},
+    {"q": "Qual empresa venceu a Concorrência Eletrônica nº 001/2025 do município de Cocal?", "ref": "F Santos Construtora e Serviços LTDA (CNPJ 09.228.043/0001-01)", "tipo": "T2", "fonte": "5a81d487"},
+    {"q": "Qual o valor do contrato da Concorrência Eletrônica nº 001/2025 de Cocal?", "ref": "R$ 3.617.082,24", "tipo": "T2", "fonte": "5a81d487"},
+    {"q": "Qual o objeto da Concorrência Eletrônica nº 001/2025 do município de Cocal?", "ref": "Pavimentação de vias públicas em paralelepípedo", "tipo": "T2", "fonte": "5a81d487"},
+    {"q": "Qual empresa foi adjudicada para a recuperação de estradas vicinais em Barras?", "ref": "Liderança Construtora LTDA (CNPJ 29.485.438/0001-99)", "tipo": "T2", "fonte": "b4742139"},
+    {"q": "Por qual valor foi adjudicada a recuperação de estradas vicinais em Barras?", "ref": "R$ 827.500,00", "tipo": "T2", "fonte": "b4742139"},
+    {"q": "O que regulamenta o decreto do município de São Raimundo Nonato de 24/10/2025?", "ref": "Institui/regulamenta o IPTU Premiado", "tipo": "T2", "fonte": "2f306135"},
+    {"q": "Qual cargo é objeto de exoneração na Portaria nº 104/2025 de Pajeú do Piauí?", "ref": "Chefe do Setor de Transporte e Máquinas", "tipo": "T2", "fonte": "179c6341"},
+    {"q": "Que fundo municipal é criado pela norma do município de Jaicós (art. 16)?", "ref": "Fundo Municipal de Direitos do Idoso", "tipo": "T2", "fonte": "286a2431"},
+    {"q": "Qual o objeto do contrato por inexigibilidade nº 005/2025 da Câmara Municipal de Gilbués?", "ref": "Consultoria e assessoria especializada em gestão de folha de pagamento e assessoria fiscal e previdenciária", "tipo": "T2", "fonte": "c2bc1f8f"},
+    {"q": "Quem foi nomeada Assessor de Gabinete pela Portaria nº 142/2025 (Tamboril do Piauí)?", "ref": "Esther de Aguiar Luz", "tipo": "T2", "fonte": "e4c03c07"},
+    {"q": "Para qual cargo comissionado foi nomeada Esther de Aguiar Luz na Portaria nº 142/2025?", "ref": "Assessor de Gabinete (símbolo DAS CC-4)", "tipo": "T2", "fonte": "e4c03c07"},
+    {"q": "Qual o tipo da licitação (Pregão Eletrônico nº 048/2025) de Redenção do Gurguéia?", "ref": "Menor preço por lote", "tipo": "T2", "fonte": "2eed7f6e"},
+    {"q": "Qual a modalidade de licitação da Ata de Registro de Preços nº 0021/2025 de Lagoa de São Francisco?", "ref": "Pregão", "tipo": "T2", "fonte": "46e01b05"},
+    {"q": "Quais profissionais o Edital de Chamada Pública Simplificada nº 001/2025 (Ribeiro Gonçalves) busca contratar?", "ref": "Operador de pá escavadeira, operador de retroescavadeira e operador de motoniveladora", "tipo": "T2", "fonte": "1bb9a766"},
+    {"q": "Qual o cargo da Chamada Pública Simplificada nº 002/2025 de Ribeira do Piauí?", "ref": "Cuidador Escolar", "tipo": "T2", "fonte": "365e5687"},
+    {"q": "Qual a carga horária do cargo da Chamada Pública nº 002/2025 de Ribeira do Piauí?", "ref": "40 horas", "tipo": "T2", "fonte": "365e5687"},
+    {"q": "Qual o objeto da Inexigibilidade de Licitação nº 019/2025 de Parnaguá?", "ref": "Assessoria técnica em saúde para fortalecimento da gestão municipal do SUS", "tipo": "T2", "fonte": "a7e346eb"},
+    {"q": "Por que foi emitido o Termo de Retificação ao Aditivo nº 011/2025 de Sebastião Leal?", "ref": "Para corrigir erro de digitação na cláusula de vigência do aditivo", "tipo": "T2", "fonte": "39cac340"},
+    {"q": "Qual decreto é corrigido pela errata publicada por São Lourenço do Piauí?", "ref": "Decreto nº 028/2025", "tipo": "T2", "fonte": "2cee3d0a"},
+    {"q": "A que exercício se refere o Orçamento-Programa da Câmara Municipal de Boqueirão do Piauí?", "ref": "Exercício de 2026", "tipo": "T2", "fonte": "1aac1fb8"},
+    {"q": "Qual a lei federal de licitações e contratos citada como fundamento nos atos do DOM-PI?", "ref": "Lei nº 14.133/2021", "tipo": "T2", "fonte": "2f306135"},
+    {"q": "Classifique o tipo de ato: 'Abre Crédito Suplementar no Orçamento-Programa vigente, no valor de R$ 30.000,00'.", "ref": "Portaria", "tipo": "T1", "fonte": "9d0162c9"},
+    {"q": "O Diário Oficial dos Municípios (DOM) usado neste corpus é de qual estado?", "ref": "Piauí", "tipo": "T1", "fonte": "1f395839"}
+  ]
+}

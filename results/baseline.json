@@ -1,0 +1,161 @@
+{
+  "modelo": "Qwen/Qwen3-4B",
+  "lm": {
+    "cross_entropy": 2.3353,
+    "perplexidade": 10.33,
+    "acc_token": 0.5531
+  },
+  "qa_sim": 0.8310524602731069,
+  "detalhe": [
+    {
+      "q": "Qual o valor do crédito suplementar aberto pela Portaria nº 790, de 12/12/2025, de Teresina?",
+      "resp": "A Portaria nº 790, de 12 de dezembro de 2025, de Teresina, publicada no Diário Oficial do Estado do Piauí, trata da **abertura de crédito suplementar** para a **Reforma do Ensino Básico e da Educação de Jovens e Adultos (EJA)**. \n\nDe acordo com a portaria, o **valor do crédito suplementar aberto** é de **R$ 150 milhões**.\n\nEssa medida tem como objetivo financiar ações e políticas educacionais destinadas à reforma do ensino básico e à educação de jovens e adultos, conforme previsto na Lei Complementar nº 162/2021.",
+      "sim": 0.824
+    },
+    {
+      "q": "De qual município é a Portaria nº 790/2025 que abre crédito suplementar de R$ 1.103.110,00?",
+      "resp": "A Portaria nº 790/2025 que abre crédito suplementar de R$ 1.103.110,00 é da **Município de São João del Rei**, no Estado de Minas Gerais.",
+      "sim": 0.805
+    },
+    {
+      "q": "Qual o valor do crédito suplementar da Portaria nº 143, de 19 de maio de 2025 (Teresina)?",
+      "resp": "A Portaria nº 143, de 19 de maio de 2025, publicada no Diário Oficial do Estado do Piauí, estabelece a **base de cálculo do crédito suplementar** para o exercício de 2025. \n\nDe acordo com a portaria, o **valor do crédito suplementar** é de **R$ 1.000.000,00 (mil reais)**, destinado à **execução de programas e políticas públicas** do Piauí, com destinação prioritária para a **gestão de recursos provenientes do Fundo de Financiamento do Estado** (FNE) e outros recursos de origem estadual.\n\nPortanto, o valor do crédito suplementar da Portaria nº 143, de 19 de maio de 2025, é **R$ 1.000.000,00**.",
+      "sim": 0.858
+    },
+    {
+      "q": "Qual o valor do crédito suplementar aberto pela Portaria nº 242, de 03 de julho de 2025?",
+      "resp": "A Portaria nº 242, de 03 de julho de 2025, não existe no âmbito do Brasil, pois a data de publicação da Portaria não é compatível com a data de publicação de portarias no Brasil, que é em jornais oficiais, como o **Diário Oficial da União (DOU)**, e a data de publicação geralmente é em **janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro ou dezembro** do ano anterior.\n\nPortanto, a Portaria nº 242, de 03 de julho de 2025, não foi publicada no Brasil, e, por isso, não há valor de crédito suplementar aberto associado a ela.\n\nSe houver uma confusão de data ou número da portaria, por favor forneça mais informações para esclarecimento.",
+      "sim": 0.821
+    },
+    {
+      "q": "Qual autoridade assina as portarias de crédito suplementar do Município de Teresina?",
+      "resp": "As portarias de crédito suplementar do Município de Teresina são assinadas pelo **Prefeito Municipal**. \n\nEssas portarias são emitidas com base na autorização do **Poder Executivo**, ou seja, do Prefeito, que tem a competência para autorizar o uso de recursos financeiros adicionais, desde que dentro do orçamento aprovado pelo legislativo municipal.",
+      "sim": 0.836
+    },
+    {
+      "q": "Qual o valor mensal do Contrato de Locação nº 004/2025 da Prefeitura de Várzea Branca?",
+      "resp": "O valor mensal do Contrato de Locação nº 004/2025 da Prefeitura de Várzea Branca não foi fornecido na informação disponível. Para obter esse valor, é necessário consultar o contrato completo ou o edital de licitação referente a esse contrato. Se houver interesse em localizar o contrato, recomenda-se procurar o Departamento de Gestão de Recursos do Município de Várzea Branca ou acessar o sistema eletrônico de licitações da prefeitura.",
+      "sim": 0.829
+    },
+    {
+      "q": "Qual a vigência do Contrato de Locação nº 004/2025 de Várzea Branca?",
+      "resp": "A vigência do Contrato de Locação nº 004/2025 de Várzea Branca não foi explicitamente mencionada na pergunta, mas, com base no formato usual de contratos de locação, é comum que a vigência seja definida por um período específico, geralmente a partir da data de assinatura do contrato até a data de término prevista, que pode ser um prazo fixo ou uma data específica.\n\nNo entanto, para obter informações precisas sobre a vigência desse contrato, é necessário consultar o documento oficial do contrato ou o registro no sistema de gestão de contratos da prefeitura de Várzea Branca. Se o contrato foi publicado ou registrado, a data de início e término podem estar registradas nesse documento.\n\nSe você tiver acesso ao contrato ou a uma cópia dele, posso ajudar a identificar a vigência com base nele. Se não, recomenda-se contactar a prefeitura ou o responsável pelo contrato para obter informações precisas.",
+      "sim": 0.813
+    },
+    {
+      "q": "Qual empresa venceu a Concorrência Eletrônica nº 001/2025 do município de Cocal?",
+      "resp": "A empresa vencedora da Concorrência Eletrônica nº 001/2025 do município de Cocal não foi divulgada publicamente em fontes acessíveis até o momento. Para obter informações precisas, recomenda-se consultar o site oficial do município de Cocal ou o sistema eletrônico de licitações do município.",
+      "sim": 0.811
+    },
+    {
+      "q": "Qual o valor do contrato da Concorrência Eletrônica nº 001/2025 de Cocal?",
+      "resp": "O valor do contrato da Concorrência Eletrônica nº 001/2025 de Cocal não foi divulgado publicamente no site da Prefeitura de Cocal. Para obter informações precisas, recomenda-se consultar o sistema eletrônico de licitações da prefeitura ou entrar em contato com a secretaria de licitações e contratos.",
+      "sim": 0.811
+    },
+    {
+      "q": "Qual o objeto da Concorrência Eletrônica nº 001/2025 do município de Cocal?",
+      "resp": "A Concorrência Eletrônica nº 001/2025 do município de Cocal tem como objeto a **contratação de serviços de apoio à gestão e administração do Município de Cocal**, no âmbito do Programa de Apoio à Gestão Municipal (PAM), com a finalidade de auxiliar na execução das atividades administrativas, operacionais e de gestão do município. \n\nEssa contratação é destinada a fornecer serviços de apoio, como gestão de recursos humanos, contabilidade, secretaria, entre outros, visando a melhoria da eficiência e eficácia da gestão municipal.",
+      "sim": 0.825
+    },
+    {
+      "q": "Qual empresa foi adjudicada para a recuperação de estradas vicinais em Barras?",
+      "resp": "A empresa adjudicada para a recuperação de estradas vicinais em Barras é a **Sociedade de Desenvolvimento do Município de Barras (Sociedade de Desenvolvimento de Barras – SDB)**. Esta empresa foi escolhida para executar o projeto de recuperação de estradas vicinais, conforme divulgado pela prefeitura municipal de Barras.",
+      "sim": 0.833
+    },
+    {
+      "q": "Por qual valor foi adjudicada a recuperação de estradas vicinais em Barras?",
+      "resp": "A recuperação de estradas vicinais em Barras foi adjudicada pelo valor de **R$ 1.200.000,00**. Esse valor foi divulgado pela prefeitura municipal de Barras, no estado da Bahia, em um processo licitatório público.",
+      "sim": 0.853
+    },
+    {
+      "q": "O que regulamenta o decreto do município de São Raimundo Nonato de 24/10/2025?",
+      "resp": "O decreto do município de São Raimundo Nonato de 24/10/2025 é regulamentado pelo **Decreto Municipal** emitido pela prefeitura da cidade. Esse decreto é publicado no **Diário Oficial do Município** e tem força de lei dentro da administração municipal.\n\nPara saber exatamente o que o decreto regulamenta, é necessário consultar o **texto completo do decreto** publicado no Diário Oficial do Município de São Raimundo Nonato. Geralmente, o decreto aborda temas como:\n\n- Normas de uso do solo;\n- Aprovação de projetos urbanísticos;\n- Regime de uso de terrenos;\n- Normas de construção;\n- Aprovação de projetos de infraestrutura;\n- Outras medidas administrativas ou normativas.\n\nPortanto, o decreto é regulamentado pelo **Decreto Municipal** da prefeitura de São Raimundo Nonato, publicado no Diário Oficial do Município. Para obter informações específicas, recomenda-se consultar o texto completo do decreto.",
+      "sim": 0.842
+    },
+    {
+      "q": "Qual cargo é objeto de exoneração na Portaria nº 104/2025 de Pajeú do Piauí?",
+      "resp": "A Portaria nº 104/2025 de Pajeú do Piauí não foi publicada ou editada, portanto, não há cargo específico que seja objeto de exoneração nessa portaria. É possível que haja confusão com outra portaria ou que a portaria tenha sido publicada em data posterior ou com número diferente.\n\nSe você desejar, posso ajudar a localizar a portaria ou fornecer informações sobre a exoneração de cargos em Pajeú do Piauí.",
+      "sim": 0.805
+    },
+    {
+      "q": "Que fundo municipal é criado pela norma do município de Jaicós (art. 16)?",
+      "resp": "De acordo com o artigo 16 da Lei Municipal de Jaicós, o **Fundo Municipal de Infância e Juventude** é criado. Este fundo tem como finalidade financiar ações e programas voltados à promoção, proteção e desenvolvimento da infância e juventude, incluindo a assistência social, educação, saúde e outros serviços relevantes para essa faixa etária.",
+      "sim": 0.889
+    },
+    {
+      "q": "Qual o objeto do contrato por inexigibilidade nº 005/2025 da Câmara Municipal de Gilbués?",
+      "resp": "O objeto do contrato por inexigibilidade nº 005/2025 da Câmara Municipal de Gilbués é a **contratação de serviços de apoio administrativo e de secretaria para o exercício do cargo de prefeito**. \n\nEsse tipo de contrato é celebrado com a administração direta, visando a execução de atividades que não exigem licitação, conforme previsto na Lei Complementar Municipal nº 12/2017.",
+      "sim": 0.83
+    },
+    {
+      "q": "Quem foi nomeada Assessor de Gabinete pela Portaria nº 142/2025 (Tamboril do Piauí)?",
+      "resp": "Pela Portaria nº 142/2025, emitida pelo Prefeito de Tamboril do Piauí, **Maria Clara Alves de Oliveira** foi nomeada **Assessor de Gabinete**.",
+      "sim": 0.838
+    },
+    {
+      "q": "Para qual cargo comissionado foi nomeada Esther de Aguiar Luz na Portaria nº 142/2025?",
+      "resp": "Esther de Aguiar Luz foi nomeada para o cargo de **Secretária de Estado da Educação** pela Portaria nº 142/2025.",
+      "sim": 0.863
+    },
+    {
+      "q": "Qual o tipo da licitação (Pregão Eletrônico nº 048/2025) de Redenção do Gurguéia?",
+      "resp": "A licitação Pregão Eletrônico nº 048/2025 de Redenção do Gurguéia é classificada como **Pregão Eletrônico**, conforme previsto no Lei Complementar Federal nº 121/2008 (Lei de Licitações e Contratos na Administração Federal). \n\nEssa modalidade de licitação é utilizada para a contratação de fornecimento de bens, serviços ou obra, em que a escolha do fornecedor é feita por meio de **análise técnica e econômica** com base em critérios estabelecidos no edital. \n\nPortanto, o tipo da licitação é: **Pregão Eletrônico**.",
+      "sim": 0.836
+    },
+    {
+      "q": "Qual a modalidade de licitação da Ata de Registro de Preços nº 0021/2025 de Lagoa de São Francisco?",
+      "resp": "A modalidade de licitação da Ata de Registro de Preços nº 0021/2025 de Lagoa de São Francisco é **LEI COMPLEMENTAR 123/2006**, que dispõe sobre a **Licitação e Contratação no Setor Público**. \n\nNo entanto, para confirmar a modalidade específica da licitação (como **LEI 12.016/2009**, **LEI 12.017/2009**, **LEI 12.018/2009**, **LEI 12.019/2009**, **LEI 12.020/2009**, **LEI 12.021/2009**, **LEI 12.022/2009**, **LEI 12.023/2009**, **LEI 12.024/2009**, **LEI 12.025/2009**, **LEI 12.0",
+      "sim": 0.818
+    },
+    {
+      "q": "Quais profissionais o Edital de Chamada Pública nº 001/2025 (Ribeiro Gonçalves) busca contratar?",
+      "resp": "O Edital de Chamada Pública nº 001/2025 (Ribeiro Gonçalves) busca contratar **profissionais de ensino e pesquisa** em áreas de **ciências humanas e ciências sociais**, com foco em **estudos da América Latina**, **história**, **geografia**, **antropologia**, **filosofia**, **linguística** e **ciências da comunicação**.\n\nO edital visa reforçar a capacidade de pesquisa e ensino na área das **ciências humanas e sociais**, com ênfase na **América Latina**, e busca contratar **professores e pesquisadores** para atuar em instituições de ensino e pesquisa.",
+      "sim": 0.822
+    },
+    {
+      "q": "Qual o cargo da Chamada Pública Simplificada nº 002/2025 de Ribeira do Piauí?",
+      "resp": "A Chamada Pública Simplificada nº 002/2025 de Ribeira do Piauí é uma publicação do governo municipal, destinada a convidar empresas para a elaboração de propostas de interesse da administração pública. O cargo ou a natureza da Chamada Pública Simplificada não é um cargo em sentido estrito, mas sim um processo seletivo para a contratação de serviços, como a elaboração de projetos, relatórios, estudos ou outras atividades técnicas.\n\nPortanto, a \"natureza da Chamada Pública Simplificada\" é a **contratação de serviços técnicos ou administrativos**, conforme definido no edital. O cargo ou função que está sendo convocada é o de **elaboração de propostas técnicas**, mas não há um cargo específico, pois é um processo de seleção de empresas para fornecer serviços.",
+      "sim": 0.815
+    },
+    {
+      "q": "Qual a carga horária do cargo da Chamada Pública nº 002/2025 de Ribeira do Piauí?",
+      "resp": "A carga horária do cargo da Chamada Pública nº 002/2025 de Ribeira do Piauí não foi especificada na publicação oficial da chamada. Para obter informações precisas, recomenda-se consultar o edital completo da chamada pública ou contatar o órgão responsável pela gestão do processo seletivo.",
+      "sim": 0.804
+    },
+    {
+      "q": "Qual o objeto da Inexigibilidade de Licitação nº 019/2025 de Parnaguá?",
+      "resp": "A Inexigibilidade de Licitação nº 019/2025 de Parnaguá tem como objeto a **contratação de serviços de apoio à gestão e administração do Município de Parnaguá**, com foco em atividades de natureza administrativa, operacional e de suporte, visando a melhoria da eficiência e da qualidade no exercício das funções públicas.",
+      "sim": 0.873
+    },
+    {
+      "q": "Por que foi emitido o Termo de Retificação ao Aditivo nº 011/2025 de Sebastião Leal?",
+      "resp": "O Termo de Retificação ao Aditivo nº 011/2025 de Sebastião Leal foi emitido devido a **erros ou omissões** identificados no texto do aditivo. Geralmente, essa retificação ocorre porque:\n\n- Houve **erro de redação** ou **formatação**;\n- Foi **identificado um erro de fato** (como um número incorreto, uma data errada, ou uma informação incorreta);\n- Houve **omissão de conteúdo** importante;\n- Foi **identificado um erro de ortografia ou gramática**.\n\nA retificação é um passo necessário para garantir a **precisão e a legitimidade** do documento, especialmente em processos oficiais ou jurídicos.",
+      "sim": 0.856
+    },
+    {
+      "q": "Qual decreto é corrigido pela errata publicada por São Lourenço do Piauí?",
+      "resp": "O decreto corrigido pela **errata publicada por São Lourenço do Piauí** é o **Decreto nº 11.523/2020**, que institui a **Cidade de São Lourenço do Piauí** como **unidade da federação**. \n\nEssa errata foi publicada no **Diário Oficial do Piauí** em **15 de outubro de 2020**, com o objetivo de corrigir a redação do decreto, que originalmente mencionava \"Cidade de São Lourenço do Piauí\" como \"Cidade de São Lourenço do Piauí\", mas com a errata, passou a ser reconhecida como **unidade da federação**.",
+      "sim": 0.841
+    },
+    {
+      "q": "A que exercício se refere o Orçamento-Programa da Câmara Municipal de Boqueirão do Piauí?",
+      "resp": "O Orçamento-Programa da Câmara Municipal de Boqueirão do Piauí refere-se ao **exercício fiscal** da municipalidade, ou seja, ao plano de recursos e programas a serem implementados pelo município no período de um ano calendário. Esse documento é a base para a elaboração do Orçamento Geral da Administração Municipal (OGAM) e é aprovado pelo legislativo municipal, no caso da Câmara Municipal.\n\nO Orçamento-Programa inclui as projeções de receitas e despesas, os programas e projetos a serem executados, os recursos a serem destinados a cada área da administração municipal, e as metas e objetivos do governo municipal para o período em questão.\n\nPortanto, o Orçamento-Programa da Câmara Municipal de Boqueirão do Piauí se refere ao **exercício fiscal do município**, ou seja, ao plano de recursos e programas a serem executados no ano calendário.",
+      "sim": 0.845
+    },
+    {
+      "q": "Qual a lei federal de licitações e contratos citada como fundamento nos atos do DOM-PI?",
+      "resp": "A lei federal de licitações e contratos citada como fundamento nos atos do **DOM-PI (Departamento de Orçamento e Planejamento da Infraestrutura)** é a **Lei nº 8.666/1993**, também conhecida como **Lei de Licitações e Contratos**, que estabelece os princípios, normas e procedimentos para a contratação pública no Brasil.\n\nEssa lei é o principal instrumento jurídico que regula as licitações e contratos públicos, sendo fundamental para a elaboração e execução de atos do DOM-PI, que tem como função principal planejar, orçar e fiscalizar as obras e serviços públicos.",
+      "sim": 0.83
+    },
+    {
+      "q": "Classifique o tipo de ato: 'Abre Crédito Suplementar no Orçamento-Programa vigente, no valor de R$ 30.000,00'.",
+      "resp": "O ato \"Abre Crédito Suplementar no Orçamento-Programa vigente, no valor de R$ 30.000,00\" é classificado como **ato de autorização**.\n\n**Classificação:** Ato de autorização.\n\n**Justificativa:** Este ato consiste em autorizar a utilização de um crédito suplementar dentro do orçamento-programa vigente, com um valor específico. A autorização é um tipo de ato administrativo que permite a aplicação de recursos financeiros dentro do quadro orçamentário estabelecido.",
+      "sim": 0.799
+    },
+    {
+      "q": "O Diário Oficial dos Municípios (DOM) usado neste corpus é de qual estado?",
+      "resp": "O Diário Oficial dos Municípios (DOM) usado neste corpus pertence ao estado do Rio de Janeiro.",
+      "sim": 0.807
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questao": "Q5-RAG",
+  "modo": "oficial",
+  "modelo": "Qwen/Qwen3-4B",
+  "docs": 619,
+  "n_abertas": 30,
+  "n_mcq": 8,
+  "sim_sem": 0.831,
+  "sim_com": 0.856,
+  "fac_sem": 0,
+  "fac_com": 0.433,
+  "mcq_sem": 0.25,
+  "mcq_com": 0.875
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "documento": "8/30/21 1 Professor Dr. José Torres Aula 01 -Introdução 1 §Redes elétricasinteligentes: vocêconhece? https://www.youtube.com/watch?v=xXBcFrs1-aA 2 8/30/21 2 3 4 8/30/21 3 ALGORITMOS E PROGRAMAÇÃO DECOMPUTADORES•Algoritmoé uma sequência bem definida de passos para realizar uma dadatarefa.•Programaé u",
+    "professor_verdadeiro": "JOSE RODRIGUES TORRES NETO",
+    "gerou_antes": "O autor do material apresentado é o **Professor Dr. José Torres**. \n\nO texto começa com a linha:\n\n> **8/30/2",
+    "gerou_depois": "JOSE RODRIGUES TORRES NETO",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "can be applied to different functional operators of BNN during development and debugging to achieve better hardware resource usage and better acceleration. C. Hardware Accelerator Design Different from the current mainstream neural network accelerator design, the accelerator designed in this paper d",
+    "professor_verdadeiro": "IVAN SARAIVA SILVA",
+    "gerou_antes": "O texto que você forneceu não inclui o nome do professor ou do autor do material. No entanto, o conteúdo parece ser um trecho de",
+    "gerou_depois": "IVAN SARAIVA SILVA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "African Buffalo, American (bison) Bug Butterfly Buzzard Camel Canid Cape buffalo Capybara Cardinal Caribou Carp Cat list Catshark Caterpillar Catfish Cattle list Centipede Cephalopod Chameleon Cheetah Chickadee Chicken list Chimpanzee Chinchilla Chipmunk Clam Clownfish Cobra Cockroach Cod Condor Con",
+    "professor_verdadeiro": "RAIMUNDO SANTOS MOURA",
+    "gerou_antes": "O material apresentado é uma **lista de nomes de animais**, mas não há nenhuma menção a um **professor** ou a um",
+    "gerou_depois": "RAIMUNDO SANTOS MOURA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "#include typedef struct{ float x; float y; } tponto; int main(){ tponto p; int i; for(i=0; i<5; i++){ printf(\"Digite o valor do ponto: \"); scanf(\"%f%f\", &p.x, &p.y); if ((p.x == 0) || (p.y == 0)) { printf(\"O ponto esta no eixo x ou no eixo y\\n\"); }else{ printf(\"O ponto nao esta no eixo x ou no eixo ",
+    "professor_verdadeiro": "ROSIANNI DE OLIVEIRA CRUZ FORTES",
+    "gerou_antes": "O código apresentado é um programa em **C** que lê coordenadas de um ponto (x, y) e verifica se ele está no eixo",
+    "gerou_depois": "RAIMUNDO SANTOS MOURA",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "infrutuosos infunda infundada infundadas infundado infundados infundais infundam infundamos infundas infunde infundem infundemo infundes infundi infundia infundiam infundíamos infundias infundida infundidas infundido infundidos infundíeis infundimo infundimos infundindo infundir infundira infundirá ",
+    "professor_verdadeiro": "RAIMUNDO SANTOS MOURA",
+    "gerou_antes": "O material que você forneceu é uma lista de **formas verbais** do verbo **\"infundir\"** em **português",
+    "gerou_depois": "RAIMUNDO SANTOS MOURA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "the Olympics in 2016, but a fatal landslide in 2010 accelerated the construction of a Centre of Operations to Sensors 2021, 21, 4511 9 of 29 tackle natural disasters and coordinate relevant emergency responses. The solution adopted was based on IBM's proprietary platform for smart cities. The initia",
+    "professor_verdadeiro": "ERICO MENESES LEAO",
+    "gerou_antes": "A frase que você forneceu não contém informações suficientes para identificar o professor que é o autor do material. A frase parece ser um tre",
+    "gerou_depois": "IVAN SARAIVA SILVA",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "14/11/2024 1 UFPI – CCN – DCCiência da ComputaçãoEstrutura de Dados Prof. Raimundo Mourarsm@ufpi.edu.br Hashing 3 Ideias preliminares: exemplo 1uImagine um pequeno país (bem menos que 100mil cidadãos) onde os números de CPF têm apenas 5 dígitos decimais. Considere a tabela que leva CPFs em nomes: Ch",
+    "professor_verdadeiro": "RAIMUNDO SANTOS MOURA",
+    "gerou_antes": "O autor do material apresentado é o professor **Raimundo Moura**, cujo e-mail é **raimundo.moura@ufpi.edu",
+    "gerou_depois": "RAIMUNDO SANTOS MOURA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "protocol. They provide the main features demanded by technologies for IoT, namely low-power consumption and low-complexity, but provide much larger coverage (in the range of hundreds of meters to kilometres) and the capacity for supporting hundreds, or even thousands, of nodes in one network. In its",
+    "professor_verdadeiro": "ERICO MENESES LEAO",
+    "gerou_antes": "O texto apresentado descreve características de tecnologias de **IoT (Internet of Things)**, destacando aspectos como **baixa potência",
+    "gerou_depois": "ERICO MENESES LEAO",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "o par(a, b) tamb em est a. A heran ca m ultipla tamb em pode ocorrer na deni c~ ao de uma classe. Por exemplo, class (Ord a, Visible a) => OrdVis a signicando que os elementos da classe OrdVis herdam as opera c~ oes das classesOrd e Visible. Este e o caso da declara c~ ao de uma classe que n~ ao con",
+    "professor_verdadeiro": "ANTONIO HELSON MINEIRO SOARES",
+    "gerou_antes": "O texto apresentado é um trecho de **documentação ou explicação de linguagem de programação**, especificamente referente a **Haskell**, uma",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "1 Departamento deComputação Prof. Erico Meneses LeãoUniversidade Federal do PiauíCentro de Ciências da NaturezaDepartamento de Computaçãoericoleao@ufpi.edu.br UniversidadeFederal do Piauí Sistemas de Tempo Real Comunicação de Tempo Real UNIVERSIDADE FEDERAL DO PIAUÍ UFPI DEPARTAMENTO DE COMPUTAÇÃO D",
+    "professor_verdadeiro": "ERICO MENESES LEAO",
+    "gerou_antes": "O autor do material apresentado é **Prof. Erico Meneses Leão**, do **Departamento de Computação** da **Universidade Federal do P",
+    "gerou_depois": "ERICO MENESES LEAO",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "o que foi chamado – por classes que herdam de TestCase e executa os testes. Outras classes de testes importadas por esse arquivo também seriam executadas. V eja o código que faz o que foi descrito logo a seguir: ❃❃❃ ✐❢ ❴❴♥❛♠❡❴❴ ❂❂ ✧❴❴♠❛✐♥❴❴✧ ✿ ✳✳✳ ✉♥✐tt❡st ✳ ♠❛✐♥✭✮ Código do teste A outra parte rele",
+    "professor_verdadeiro": "VINICIUS PONTE MACHADO",
+    "gerou_antes": "O texto que você forneceu é um **fragmento de código em Python**, provavelmente relacionado a **testes unitários**, e está usando",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "private void listar() { Node aux = inicio; System.out.print(\"Lista: \"); else { System.out.println(); while (aux!=null) { System.out.print(aux.nome+\" ->\"); aux = aux.prox; System.out.println(\"\\n\");",
+    "professor_verdadeiro": "RAIMUNDO SANTOS MOURA",
+    "gerou_antes": "O código apresentado é um trecho de um método `listar()` em uma classe que representa uma **lista encadeada** (linked list). O",
+    "gerou_depois": "RAIMUNDO SANTOS MOURA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "beneUciode fazer previsõesquanOtaOvas desse Opo éque caracterísOcasdiferentes de sistemas e aplicaçõespodem ser facilmente comparadas para verificar qual será mais eficaz na realizaçãode determinados Opos de tarefa.33 33 KML•Cardet al. (1983) analisaram os resultados de muitos estudos empíricossobre",
+    "professor_verdadeiro": "RAIMUNDO SANTOS MOURA",
+    "gerou_antes": "O texto que você forneceu parece ser um trecho de um material acadêmico ou técnico, provavelmente relacionado a **tempo de exec",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "tioned decoded instruction queue 1501 for storing 4 decoded instructions (e.g., syllables from a VLIW); a 4x partitioned allocation unit 1502 for allocating instructions to processor resources; a 4x partitioned, n-entry Scheduler wakeup logic and reservation stations 1503 with a 4x partitioned set o",
+    "professor_verdadeiro": "IVAN SARAIVA SILVA",
+    "gerou_antes": "O texto que você forneceu descreve uma arquitetura de processador, provavelmente relacionada a um **processador VLIW",
+    "gerou_depois": "IVAN SARAIVA SILVA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "aspect of its service. 6089 The LAS should have an open and easily accessible complaints procedure. Clearly the public should be able to expect a prompt, sympathetic and accurate response to complaints. To this end, we recommend that the LAS devote adequate resources to answering complaints in terms",
+    "professor_verdadeiro": "ERICO MENESES LEAO",
+    "gerou_antes": "O texto que você forneceu é uma **recomendação de políticas ou diretrizes** relacionada ao **serviço de um órgão",
+    "gerou_depois": "ERICO MENESES LEAO",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "esse tipo de expressão é representar condições que podem ser avaliadas com valores diferentes. Por exemplo: imagine que salário > 1000 and idade > 18 seja uma condição para um empréstimo de compra de um carro novo. Quando salário = 100 e idade = 20, sabemos que o resultado da expressão é falso, e po",
+    "professor_verdadeiro": "JOSE RODRIGUES TORRES NETO",
+    "gerou_antes": "O texto apresentado é um **exemplo de explicação sobre expressões lógicas e condições em programação**, especialmente no contexto de **linguagem",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "Máquinas de Estado Finito 1. Encontre o AFD equivalente ao AFN abaixo: 2. Construa AFN ou AFNλ para as seguintes linguagens sobre {a, b, c}: (a) O conjunto das palavras em que o último símbolo seja idêntico ao primeiro. (b) O conjunto das palavras em que o último símbolo seja diferente do primeiro. ",
+    "professor_verdadeiro": "LAURINDO DE SOUSA BRITTO NETO",
+    "gerou_antes": "O autor do material apresentado é **Prof. Dr. Luís Otávio de Oliveira**.\n\nEsse material é parte do conteúdo de **Teoria",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "393–422 make topology maintenance a challenging task. Hundreds to several thousands of nodes are deployed throughout the sensor field. They are deployed within tens of feet of each other [39]. The node densities may be as high as 20 nodes/m 3 [77]. Deploying high number of nodes densely requires car",
+    "professor_verdadeiro": "ERICO MENESES LEAO",
+    "gerou_antes": "O texto que você forneceu é um trecho de um **artigo acadêmico** sobre **topologia em redes de sensores**.",
+    "gerou_depois": "ERICO MENESES LEAO",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "usuário do computador. 6.1 Introdução Sem o software, um computador seria um pedaço de metal sem uso. Muitos consideram o software como a alma do computador. Existem dois tipos de software para computadores: Programas do sistema responsáveis por operações de gerenciamento do próprio computador, Prog",
+    "professor_verdadeiro": "CARLOS ANDRE BATISTA DE CARVALHO",
+    "gerou_antes": "O texto apresentado é uma **explicação sobre os tipos de software em um computador**, dividindo-o em **programas do sistema** e **",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "designed for education,\" Journal of Computing Sciences in Colleges, vol. 21, no. 1, pp. 95–101, 2005. [26] V erilog Hardware Description Reference, Open V erilog International, March 1993. [27] J. H. Lee, S. E. Lee, H. C. Y u, and T. Suh, \"Pipelined cpu design with fpga in teaching computer architec",
+    "professor_verdadeiro": "IVAN SARAIVA SILVA",
+    "gerou_antes": "O autor do material apresentado não é um professor específico, mas o **material** (listagem de referências) parece ser parte de **uma lista de",
+    "gerou_depois": "ERICO MENESES LEAO",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "conquistaras conquistarás conquistardes conquistarei conquistareis conquistáreis conquistarem conquistaremo conquistaremos conquistares conquistaria conquistariam conquistaríamos conquistarias conquistaríeis conquistarmo conquistarmos conquistas conquistasse conquistásseis conquistassem conquistásse",
+    "professor_verdadeiro": "RAIMUNDO SANTOS MOURA",
+    "gerou_antes": "O material apresentado é uma **lista de formas verbais do verbo \"conquistar\"** em **variados tempos e modos** da",
+    "gerou_depois": "RAIMUNDO SANTOS MOURA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "patents, more than 15 peer-review journals, and more than 30 prestigious international conferences. His research interests include HW/SW co-design on FPGA, FPGA acceleration on AI/ML, and system-on-chip architecture. Dr. Yang has served on several editorial boards and journal reviewers, including th",
+    "professor_verdadeiro": "IVAN SARAIVA SILVA",
+    "gerou_antes": "O autor do material apresentado é **Dr. Yang**. \n\nO texto descreve uma carreira acadêmica e científica de um profissional",
+    "gerou_depois": "IVAN SARAIVA SILVA",
+    "acertou_antes": 0,
+    "acertou_depois": 1
+  },
+  {
+    "documento": "para listar todos os agentes, 'q' para terminar: l Klara 89 Edward 888 ZipZap 109 Digite 'e' para entrar novo agente, 'l' para listar todos os agentes, 'q' para terminar: e Digite nome e código: TipTop 999 Digite 'e' para entrar novo agente, 'l' para listar todos os agentes, 'q' para terminar: l Kla",
+    "professor_verdadeiro": "ANTONIO HELSON MINEIRO SOARES",
+    "gerou_antes": "O texto apresentado é um **exercício de programação** ou **simulação de um sistema de banco de dados**. Ele mostra um **inter",
+    "gerou_depois": "ROSIANNI DE OLIVEIRA CRUZ FORTES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "linha atual CTRLseta direita Primeira coluna da linha atual CTRLseta esquerda GOVERNO DO ESTADO DO ESPÍRITO SANTO ESCOLA DE SERVIÇO PÚBLICO DO ESPÍRITO SANTO - ESESP Microsoft EXCEL 2010 - Básico Pág. 4 Última linha da coluna atual CTRLseta inferior Primeira linha da coluna atual CTRLseta superior M",
+    "professor_verdadeiro": "PEDRO DE ALCANTARA DOS SANTOS NETO",
+    "gerou_antes": "O material apresentado é um **guia de uso do Microsoft Excel 2010**, com foco em comandos de navegação e",
+    "gerou_depois": "ANTONIO HELSON MINEIRO SOARES",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  },
+  {
+    "documento": "responsibility might have provided. This seems to indicate that while an overall NHS IT responsibility might have been helpful it was not a necessary condition. The next factor identified by Beynon-Davies as problematic was the 'lack of a strategic vision' in 1992. It is not clear whether Beynon-Dav",
+    "professor_verdadeiro": "ERICO MENESES LEAO",
+    "gerou_antes": "O autor do material apresentado é **Graham Beynon-Davies**.\n\nEle é um **historiador da administração pública e da gestão",
+    "gerou_depois": "IVAN SARAIVA SILVA",
+    "acertou_antes": 0,
+    "acertou_depois": 0
+  }
+]
