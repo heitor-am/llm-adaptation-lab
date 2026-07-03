@@ -1,49 +1,55 @@
 % ============================================================
 % Slides — Trabalho Final de Tópicos em IA (Grupo 2, UFPI)
 % Compilar DENTRO de slides/:  pdflatex main.tex (2x)
-% Tema: Metropolis + paleta e tipografia dos slides do TCC
+% Tema: Madrid + paleta petróleo (visual distinto do deck do TCC)
 % ============================================================
 \documentclass[aspectratio=169,11pt]{beamer}
 
-\usetheme[progressbar=frametitle, numbering=fraction]{metropolis}
+\usetheme{Madrid}
+\useinnertheme{rectangles}
 
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[sfdefault,scaled=0.95]{sourcesanspro}
+\usepackage[default]{lato}
 \usepackage{booktabs}
 \usepackage{amssymb,amsmath}
 \usepackage{graphicx}
 
 \graphicspath{{../results/}{.}}
 
-% ---------- Paleta ----------
-\definecolor{dsOrange}{RGB}{191,128,38}   % destaque
-\definecolor{dsBlue}{RGB}{57,57,134}      % secundária
-\definecolor{dsDark}{RGB}{35,38,41}
-\definecolor{dsGreen}{RGB}{58,122,82}     % ganho / depois
+% ---------- Paleta petróleo ----------
+\definecolor{tiaTeal}{RGB}{16,98,108}     % principal
+\definecolor{tiaGreen}{RGB}{46,125,86}    % ganho / depois
+\definecolor{tiaAmber}{RGB}{176,101,0}    % alerta pontual
+\definecolor{tiaGray}{RGB}{88,92,96}
 
-\setbeamercolor{progress bar}{fg=dsOrange}
-\setbeamercolor{alerted text}{fg=dsOrange}
-\setbeamercolor{frametitle}{bg=dsDark}
+\usecolortheme[named=tiaTeal]{structure}
+\setbeamercolor{alerted text}{fg=tiaAmber}
+\setbeamercolor{block title}{bg=tiaTeal,fg=white}
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}{\insertcaption}
 
 % Atalho: números grandes nos slides de resultado
-\newcommand{\bignum}[1]{{\fontsize{34}{38}\selectfont\fontseries{sb}\selectfont #1}}
+\newcommand{\bignum}[1]{{\fontsize{30}{34}\selectfont\bfseries #1}}
 
-\title{Adaptação de LLMs na prática}
+\title[Adaptação de LLMs na prática]{Adaptação de LLMs na prática}
 \subtitle{Seis técnicas sobre o mesmo modelo e o mesmo domínio:\\
           Qwen3 nos Diários Oficiais do Piauí}
-\author{Francisco Cosme Monteiro Xavier \and Heitor Andrade Moura \and
-        Isaac Augusto Santana Brito \and João Pedro Monteiro da Silva Barros\\[2mm]
-        {\small Grupo 2 \quad Prof.\ Raimundo Santos Moura}}
-\institute{Departamento de Computação, Universidade Federal do Piauí\\
-           DC/CCN072, Tópicos em Inteligência Artificial}
+\author[Grupo 2]{Francisco Cosme Monteiro Xavier \and Heitor Andrade Moura \\
+        Isaac Augusto Santana Brito \and João Pedro Monteiro da Silva Barros}
+\institute[UFPI]{Departamento de Computação, Universidade Federal do Piauí\\
+           DC/CCN072, Tópicos em Inteligência Artificial\\[1mm]
+           {\small Prof.\ Raimundo Santos Moura}}
 \date{Julho de 2026}
-\titlegraphic{\hfill\includegraphics[height=1.4cm]{logo-ufpi.png}}
+\titlegraphic{\includegraphics[height=1.2cm]{logo-ufpi.png}}
 
 \begin{document}
 
-\maketitle
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
 
 % ============================================================
 % BLOCO 1 — GANCHO (2 min)
@@ -60,7 +66,7 @@
       {\footnotesize a resposta ``soa'' certa}
     \column{0.48\textwidth}\centering
       \alert{acerto factual}\\[3mm]
-      \textcolor{dsOrange}{\bignum{0/30}}\\[2mm]
+      \textcolor{tiaAmber}{\bignum{0/30}}\\[2mm]
       {\footnotesize nenhum fato local correto}
   \end{columns}
   \vspace{5mm}
@@ -175,8 +181,8 @@
       antes do SFT\\[3mm]
       \bignum{0,00}
     \column{0.48\textwidth}\centering
-      \alert{depois do SFT}\\[3mm]
-      \textcolor{dsGreen}{\bignum{0,56}}\\[2mm]
+      \textcolor{tiaGreen}{depois do SFT}\\[3mm]
+      \textcolor{tiaGreen}{\bignum{0,56}}\\[2mm]
       {\footnotesize acaso $= 0{,}05$; baseline de classe $= 0{,}24$}
   \end{columns}
   \vspace{5mm}
@@ -184,7 +190,7 @@
   nomes compostos: subestimava um modelo que acerta a maioria.
   \vspace{2mm}
 
-  \centering\fontseries{sb}\selectfont
+  \centering\bfseries
   A escolha da métrica pode inverter a conclusão.
 \end{frame}
 
@@ -198,7 +204,7 @@
     \column{0.46\textwidth}
       \centering
       de \bignum{2796}\\[2mm]
-      para \textcolor{dsGreen}{\bignum{7,05}}\\[3mm]
+      para \textcolor{tiaGreen}{\bignum{7,05}}\\[3mm]
       {\footnotesize queda de cerca de 400 vezes:\\
        o SFT ``gravou'' a tarefa no modelo}
   \end{columns}
@@ -334,7 +340,7 @@
     \end{tabular}
   \end{center}
   \vspace{4mm}
-  \centering\fontseries{sb}\selectfont
+  \centering\bfseries
   Fluência e formato vêm de adaptar o modelo;\\
   fatos vêm da recuperação; segurança vem de camadas externas.
 \end{frame}
@@ -353,123 +359,23 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}[standout]
-  \normalsize
+\begin{frame}{Obrigado!}
+  \centering
   o modelo que ``soava'' certo tirava zero em fato;\\
   medir bem importa tanto quanto treinar bem
-
   \vspace{6mm}
-  \bignum{0 $\rightarrow$ 0,433}
+
+  {\color{tiaGreen}\bignum{0 $\Rightarrow$ 0,433}}
 
   \vspace{1mm}
   {\small acerto factual com RAG, a técnica certa para o problema certo}
+  \vspace{7mm}
 
-  \vspace{9mm}
-  {\Large Obrigado! Perguntas?}
-\end{frame}
-
-% ============================================================
-% BACKUP
-% ============================================================
-\appendix
-
-\begin{frame}{Backup: por que a similaridade não serve como métrica}
-  \begin{columns}[c]
-    \column{0.55\textwidth}
-      \centering
-      \includegraphics[width=\textwidth]{fig_saturacao.png}
-    \column{0.42\textwidth}
-      Respostas \alert{factualmente erradas} pontuam similaridade
-      próxima de 0,85: a métrica \textbf{satura} no mesmo tema.
-      \vspace{2mm}
-
-      {\footnotesize Exemplo real: pergunta sobre a Portaria 790 de
-       Teresina respondida com ``São João del Rei/MG'' teve
-       similaridade 0,80.}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{Backup: controles de contaminação por questão}
-  \begin{itemize}
-    \item \textbf{Q1}: documentos-fonte do benchmark
-          \alert{excluídos} do corpus de treino
-    \item \textbf{Q2/Q3}: deduplicação de quase-duplicatas
-          treino/avaliação; baseline de classe majoritária reportado
-    \item \textbf{Q4}: treino e avaliação em metades
-          \alert{disjuntas} do benchmark conceitual
-    \item \textbf{Q5}: avaliação declarada \alert{open-book}
-    \item \textbf{Evidência global}: o modelo cru tirou 0/30 no
-          acerto factual; os fatos locais não estavam no pré-treino
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Backup: o viés do cloze em 30 segundos}
-  O cloze ranqueia candidatos pela \alert{loss média por token}
-  do nome dado o documento:
-  \begin{itemize}
-    \item nomes compostos longos diluem a evidência em mais tokens
-    \item tokens genéricos (``DE'', ``DA'', ``SILVA'') puxam a média
-    \item resultado: candidato errado e curto vence o certo e longo
-  \end{itemize}
-  \vspace{3mm}
-  Diagnóstico confirmado por inspeção item a item
-  (\texttt{respostas\_q3.json}): em geração livre o modelo escreve
-  o nome correto na maioria dos documentos do held-out.
-\end{frame}
-
-\begin{frame}{Backup: sonda de esquecimento completa (1.7B)}
-  \begin{center}
-    \begin{tabular}{lcc}
-      \toprule
-      Perplexidade & 1.7B base & 1.7B $+$ pré-treino\\
-      \midrule
-      Domínio (DOM-PI) & 10,46 & \textbf{8,64}\\
-      Fora do domínio (docentesDC) & 7,94 & \textbf{6,64}\\
-      \bottomrule
-    \end{tabular}
-  \end{center}
+  {\footnotesize Repositório: \texttt{github.com/heitor-am/llm-adaptation-lab}\\
+   Adapters: Hugging Face, usuário \texttt{heitor-am}}
   \vspace{4mm}
-  A perplexidade fora do domínio \alert{também cai}: nenhum sinal
-  de esquecimento catastrófico neste regime de treino
-  (LoRA, poucos passos, base congelado em 4-bit).
-\end{frame}
 
-\begin{frame}{Backup: tabela consolidada completa}
-  \begin{center}
-    \small
-    \begin{tabular}{@{}llccc@{}}
-      \toprule
-      Q & Métrica & Antes & Depois & Referência\\
-      \midrule
-      Q1 & Perplexidade domínio & 7,05 & 3,77 & \\
-      Q1 & Acurácia MCQ & 0,333 & 0,500 & acaso 0,25\\
-      Q2/Q3 & Atribuição (geração) & 0,00 & 0,56 & acaso 0,05; maj.\ 0,24\\
-      Q2/Q3 & PPL da resposta & 2796 & 7,05 & \\
-      Q4 & MCQ conceitual (aluno) & 0,659 & 0,659 & professor 0,732\\
-      Q5 & Acerto factual & 0,000 & 0,433 & \\
-      Q5 & MCQ (nb 02 / nb 07) & 0,250 & 0,875 / 0,500 & benchmarks distintos\\
-      Q5 & LLM-juiz (0 a 5) & 1,83 & 3,30 & \\
-      Q6 & Proteção geral & -- & 0,951 & 41 casos\\
-      \bottomrule
-    \end{tabular}
-  \end{center}
-\end{frame}
-
-\begin{frame}{Backup: reprodutibilidade}
-  \begin{itemize}
-    \item Repositório público:
-          \texttt{github.com/heitor-am/llm-adaptation-lab}\\
-          {\footnotesize notebooks executados com outputs preservados,
-           resultados por item, figuras e relatório}
-    \item Adapters no Hugging Face (usuário \texttt{heitor-am}):
-          \texttt{qwen3-1.7b-dompi-pretrain},
-          \texttt{qwen3-4b-dompi-sft},
-          \texttt{qwen3-0.6b-dompi-distill}
-    \item Interruptor \texttt{RETRAIN}: com \texttt{False}, os notebooks
-          carregam o adapter publicado e pulam o treino
-    \item Tudo roda em Colab T4 grátis; seletor \texttt{MODE} troca
-          entre protótipo (1.7B) e rodada oficial (4B)
-  \end{itemize}
+  {\Large\bfseries Perguntas?}
 \end{frame}
 
 \end{document}
