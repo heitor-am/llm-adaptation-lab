@@ -1,7 +1,7 @@
 % ============================================================
 % Slides — Trabalho Final de Tópicos em IA (Grupo 2, UFPI)
 % Compilar DENTRO de slides/:  pdflatex main.tex (2x)
-% Tema: Madrid + paleta petróleo (visual distinto do deck do TCC)
+% Tema: Madrid + paleta petróleo
 % ============================================================
 \documentclass[aspectratio=169,11pt]{beamer}
 
@@ -37,7 +37,8 @@
 \title[Adaptação de LLMs na prática]{Adaptação de LLMs na prática}
 \subtitle{Seis técnicas sobre o mesmo modelo e o mesmo domínio:\\
           Qwen3 nos Diários Oficiais do Piauí}
-\author[Grupo 2]{Francisco Cosme Monteiro Xavier \and Heitor Andrade Moura \\
+\author[Grupo 2]{{\normalsize\bfseries Integrantes}\\[2mm]
+        Heitor Andrade Moura \and Francisco Cosme Monteiro Xavier\\
         Isaac Augusto Santana Brito \and João Pedro Monteiro da Silva Barros}
 \institute[UFPI]{Departamento de Computação, Universidade Federal do Piauí\\
            DC/CCN072, Tópicos em Inteligência Artificial\\[1mm]
@@ -52,7 +53,7 @@
 \end{frame}
 
 % ============================================================
-% BLOCO 1 — GANCHO (2 min)
+% GANCHO
 % ============================================================
 
 \begin{frame}{O modelo parece saber}
@@ -70,46 +71,16 @@
       {\footnotesize nenhum fato local correto}
   \end{columns}
   \vspace{5mm}
-  \centering O modelo fala como um Diário Oficial,
-  mas \alert{não sabe nenhum fato local}.
-\end{frame}
-
-\begin{frame}{Duas perguntas guiam o trabalho}
-  \begin{enumerate}
-    \item Como \alert{dar conhecimento} de um domínio a um LLM?\\
-          {\footnotesize pré-treino contínuo, SFT, destilação, RAG, guardrails}
-    \vspace{3mm}
-    \item Como \alert{medir de verdade} o que mudou?\\
-          {\footnotesize métricas que saturam, métricas que enganam,
-           intervalos de confiança}
-  \end{enumerate}
-  \vspace{5mm}
-  \textbf{Tese central}: cada técnica resolve uma coisa diferente.
-  Otimizar ``o modelo'' como objetivo único esconde essa divisão
-  de trabalho.
+  \centering
+  O trabalho responde: como \alert{dar conhecimento} a um LLM,\\
+  e como \alert{medir de verdade} o que mudou.
 \end{frame}
 
 % ============================================================
-% BLOCO 2 — SETUP (2 min)
+% SETUP
 % ============================================================
 
-\begin{frame}{Configuração comum}
-  \begin{itemize}
-    \item \textbf{Modelo}: Qwen3-4B na rodada oficial
-          (aluno da destilação: 0.6B; sonda de esquecimento: 1.7B)
-    \item \textbf{Dados}: DOM-PI (corpus dos Diários Oficiais) e
-          docentesDC (13.762 docs rotulados por professor)
-    \item \textbf{Infra}: Google Colab com GPU T4 \alert{grátis};
-          QLoRA 4-bit para caber um 4B em 16 GB
-    \item \textbf{Benchmarks próprios}: 30 abertas $+$ 20 MCQ (DOM-PI)
-          e 100 MCQ (destilação), com distratores reais do corpus
-  \end{itemize}
-  \vspace{3mm}
-  {\footnotesize Adapters publicados no Hugging Face; notebooks executados
-   com outputs preservados como prova de execução.}
-\end{frame}
-
-\begin{frame}{Seis questões, sete notebooks}
+\begin{frame}{Seis questões, um modelo, um domínio}
   \begin{center}
     \small
     \renewcommand{\arraystretch}{1.15}
@@ -126,12 +97,18 @@
     \end{tabular}
   \end{center}
   \vspace{3mm}
-  O notebook 01 mede o ``antes'' comum; o 07 cruza todos os modelos
-  nos mesmos benchmarks, com IC 95\%.
+  \textbf{Setup comum}: Qwen3-4B, corpus DOM-PI $+$ docentesDC,
+  Colab T4 \alert{grátis} (QLoRA 4-bit), benchmarks próprios com
+  distratores reais.
+  \vspace{2mm}
+
+  {\footnotesize O notebook 01 mede o ``antes''; o 07 cruza todos os
+   modelos com IC 95\%. Adapters no Hugging Face; notebooks executados
+   com outputs preservados.}
 \end{frame}
 
 % ============================================================
-% BLOCO 3 — Q1 (2 min)
+% Q1
 % ============================================================
 
 \begin{frame}{Q1: pré-treino contínuo adapta sem esquecer}
@@ -155,7 +132,7 @@
 \end{frame}
 
 % ============================================================
-% BLOCO 4 — Q2/Q3, A REVIRAVOLTA (4 min)
+% Q2/Q3
 % ============================================================
 
 \begin{frame}{Q2/Q3: SFT com QLoRA, e um resultado que assustou}
@@ -185,33 +162,18 @@
       \textcolor{tiaGreen}{\bignum{0,56}}\\[2mm]
       {\footnotesize acaso $= 0{,}05$; baseline de classe $= 0{,}24$}
   \end{columns}
-  \vspace{5mm}
-  O cloze por loss média tem \alert{viés de comprimento} e ranqueia mal
-  nomes compostos: subestimava um modelo que acerta a maioria.
+  \vspace{4mm}
+  O cloze tem \alert{viés de comprimento} e subestimava o modelo.
+  Confirmação independente: a perplexidade da resposta correta cai de
+  \textbf{2796 para 7,05} após o SFT.
   \vspace{2mm}
 
   \centering\bfseries
   A escolha da métrica pode inverter a conclusão.
 \end{frame}
 
-\begin{frame}{Q2/Q3: a prova mais forte}
-  Perplexidade que o modelo atribui à \alert{resposta correta}:
-  \vspace{2mm}
-  \begin{columns}[c]
-    \column{0.5\textwidth}
-      \centering
-      \includegraphics[width=\textwidth]{fig_sft_ppl.png}
-    \column{0.46\textwidth}
-      \centering
-      de \bignum{2796}\\[2mm]
-      para \textcolor{tiaGreen}{\bignum{7,05}}\\[3mm]
-      {\footnotesize queda de cerca de 400 vezes:\\
-       o SFT ``gravou'' a tarefa no modelo}
-  \end{columns}
-\end{frame}
-
 % ============================================================
-% BLOCO 5 — Q4 (2 min)
+% Q4
 % ============================================================
 
 \begin{frame}{Q4: destilação é compressão}
@@ -236,7 +198,7 @@
 \end{frame}
 
 % ============================================================
-% BLOCO 6 — Q5 (3 min)
+% Q5
 % ============================================================
 
 \begin{frame}{Q5: RAG entrega o que falta, o fato}
@@ -248,36 +210,21 @@
       Três métricas independentes concordam:
       \begin{itemize}
         \item MCQ: 0,25 para \textbf{0,875}
-              {\footnotesize (notebook 02)}
         \item acerto factual: \alert{0 para 0,433}
         \item LLM-juiz (0 a 5): 1,83 para \textbf{3,30}
       \end{itemize}
       \vspace{2mm}
-      {\footnotesize O zero sem RAG é também a prova de ausência de
-       contaminação: o fato local não estava decorado.}
-  \end{columns}
-\end{frame}
+      Com RAG as notas viram \alert{bimodais} (0 ou 5): o gargalo
+      passa a ser o \textbf{recall do retriever}, não o gerador.
+      \vspace{2mm}
 
-\begin{frame}{Q5: onde o RAG ainda falha}
-  \begin{columns}[c]
-    \column{0.52\textwidth}
-      \centering
-      \includegraphics[width=\textwidth]{fig_juiz_hist.png}
-    \column{0.44\textwidth}
-      Com RAG a distribuição vira \alert{bimodal}: 0 ou 5.
-      \vspace{2mm}
-      \begin{itemize}
-        \item recuperou o documento certo: resposta nota 5
-        \item o \textit{retriever} falhou: resposta zera
-      \end{itemize}
-      \vspace{2mm}
-      O gargalo passa a ser o \alert{recall da recuperação},
-      não o modelo gerador.
+      {\footnotesize O zero sem RAG também prova ausência de
+       contaminação.}
   \end{columns}
 \end{frame}
 
 % ============================================================
-% BLOCO 7 — Q6 + COMPARATIVA (2 min)
+% Q6
 % ============================================================
 
 \begin{frame}{Q6: segurança sem treinar nada}
@@ -300,9 +247,12 @@
   \end{center}
   \vspace{2mm}
   {\footnotesize Os 2 escapes são paráfrases sem as palavras-chave:
-   limite conhecido de filtros por regra (em produção, um classificador
-   como Llama Guard).}
+   limite conhecido de filtros por regra.}
 \end{frame}
+
+% ============================================================
+% COMPARATIVA
+% ============================================================
 
 \begin{frame}{Todos os modelos, o mesmo benchmark, IC 95\%}
   \begin{columns}[c]
@@ -321,7 +271,7 @@
 \end{frame}
 
 % ============================================================
-% BLOCO 8 — FECHAMENTO (2 min)
+% FECHAMENTO
 % ============================================================
 
 \begin{frame}{Síntese: cada técnica resolve uma coisa}
@@ -339,24 +289,15 @@
       \bottomrule
     \end{tabular}
   \end{center}
-  \vspace{4mm}
+  \vspace{3mm}
   \centering\bfseries
   Fluência e formato vêm de adaptar o modelo;\\
   fatos vêm da recuperação; segurança vem de camadas externas.
-\end{frame}
+  \vspace{3mm}
 
-\begin{frame}{Limitações}
-  \begin{itemize}
-    \item \textbf{Benchmarks pequenos} (dezenas de itens):
-          IC 95\% largos; reportamos incerteza em vez de
-          superinterpretar
-    \item \textbf{LLM-juiz da mesma família} do gerador (Qwen3-4B);
-          mitigado por três métricas concordantes
-    \item \textbf{RAG open-book}: o índice garante o documento-fonte;
-          mede o limite superior, não recall em corpus aberto
-    \item \textbf{Treinos enxutos} (T4 grátis, poucos passos):
-          demonstração honesta, não estado da arte
-  \end{itemize}
+  {\footnotesize\normalfont Limitações: benchmarks pequenos (IC largos),
+   juiz da mesma família do gerador, RAG open-book, treinos enxutos na
+   T4 grátis.}
 \end{frame}
 
 \begin{frame}{Obrigado!}
